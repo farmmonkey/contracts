@@ -1,0 +1,108 @@
+APPBASE: Warning: The following configuration items in the config.ini file are redundantly set to
+         their default value:
+             bnet-endpoint, bnet-follow-irreversible, bnet-no-trx, bnet-peer-log-format, 
+             blocks-dir, abi-serializer-max-time-ms, chain-state-db-size-mb, chain-state-db-guard-size-mb, 
+             reversible-blocks-db-size-mb, reversible-blocks-db-guard-size-mb, signature-cpu-billable-pct, 
+             chain-threads, contracts-console, read-mode, validation-mode, disable-ram-billing-notify-checks, 
+             https-client-validate-peers, http-server-address, access-control-allow-credentials, 
+             max-body-size, verbose-http-errors, http-validate-host, max-login-requests, 
+             max-login-timeout, mongodb-queue-size, mongodb-abi-cache-size, mongodb-wipe, 
+             mongodb-block-start, mongodb-update-via-block-num, mongodb-store-blocks, 
+             mongodb-store-block-states, mongodb-store-transactions, mongodb-store-transaction-traces, 
+             mongodb-store-action-traces, p2p-listen-endpoint, p2p-max-nodes-per-host, 
+             agent-name, allowed-connection, max-clients, connection-cleanup-period, max-cleanup-time-msec, 
+             network-version-match, sync-fetch-span, use-socket-read-watermark, peer-log-format, 
+             enable-stale-production, pause-on-startup, max-transaction-time, max-irreversible-block-age, 
+             signature-provider, keosd-provider-timeout, produce-time-offset-us, last-block-time-offset-us, 
+             max-scheduled-transaction-time-per-block-ms, incoming-defer-ratio, producer-threads, 
+             snapshots-dir, state-history-dir, trace-history, chain-state-history, txn-reference-block-lag
+             
+         Explicit values will override future changes to application defaults. Consider commenting out or
+         removing these items.
+info  2019-04-04T03:13:52.567 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+warn  2019-04-04T03:13:52.567 thread-0  chain_plugin.cpp:700          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:700 plugin_initialize
+error 2019-04-04T03:13:52.567 thread-0  main.cpp:114                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+APPBASE: Warning: The following configuration items in the config.ini file are redundantly set to
+         their default value:
+             bnet-endpoint, bnet-follow-irreversible, bnet-no-trx, bnet-peer-log-format, 
+             blocks-dir, abi-serializer-max-time-ms, chain-state-db-size-mb, chain-state-db-guard-size-mb, 
+             reversible-blocks-db-size-mb, reversible-blocks-db-guard-size-mb, signature-cpu-billable-pct, 
+             chain-threads, contracts-console, read-mode, validation-mode, disable-ram-billing-notify-checks, 
+             https-client-validate-peers, http-server-address, access-control-allow-credentials, 
+             max-body-size, verbose-http-errors, http-validate-host, max-login-requests, 
+             max-login-timeout, mongodb-queue-size, mongodb-abi-cache-size, mongodb-wipe, 
+             mongodb-block-start, mongodb-update-via-block-num, mongodb-store-blocks, 
+             mongodb-store-block-states, mongodb-store-transactions, mongodb-store-transaction-traces, 
+             mongodb-store-action-traces, p2p-listen-endpoint, p2p-max-nodes-per-host, 
+             agent-name, allowed-connection, max-clients, connection-cleanup-period, max-cleanup-time-msec, 
+             network-version-match, sync-fetch-span, use-socket-read-watermark, peer-log-format, 
+             enable-stale-production, pause-on-startup, max-transaction-time, max-irreversible-block-age, 
+             signature-provider, keosd-provider-timeout, produce-time-offset-us, last-block-time-offset-us, 
+             max-scheduled-transaction-time-per-block-ms, incoming-defer-ratio, producer-threads, 
+             snapshots-dir, state-history-dir, trace-history, chain-state-history, txn-reference-block-lag
+             
+         Explicit values will override future changes to application defaults. Consider commenting out or
+         removing these items.
+info  2019-04-04T03:14:05.154 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+warn  2019-04-04T03:14:05.155 thread-0  chain_plugin.cpp:700          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:700 plugin_initialize
+error 2019-04-04T03:14:05.155 thread-0  main.cpp:114                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+APPBASE: Warning: The following configuration items in the config.ini file are redundantly set to
+         their default value:
+             bnet-endpoint, bnet-follow-irreversible, bnet-no-trx, bnet-peer-log-format, 
+             blocks-dir, abi-serializer-max-time-ms, chain-state-db-size-mb, chain-state-db-guard-size-mb, 
+             reversible-blocks-db-size-mb, reversible-blocks-db-guard-size-mb, signature-cpu-billable-pct, 
+             chain-threads, contracts-console, read-mode, validation-mode, disable-ram-billing-notify-checks, 
+             https-client-validate-peers, http-server-address, access-control-allow-credentials, 
+             max-body-size, verbose-http-errors, http-validate-host, max-login-requests, 
+             max-login-timeout, mongodb-queue-size, mongodb-abi-cache-size, mongodb-wipe, 
+             mongodb-block-start, mongodb-update-via-block-num, mongodb-store-blocks, 
+             mongodb-store-block-states, mongodb-store-transactions, mongodb-store-transaction-traces, 
+             mongodb-store-action-traces, p2p-listen-endpoint, p2p-max-nodes-per-host, 
+             agent-name, allowed-connection, max-clients, connection-cleanup-period, max-cleanup-time-msec, 
+             network-version-match, sync-fetch-span, use-socket-read-watermark, peer-log-format, 
+             enable-stale-production, pause-on-startup, max-transaction-time, max-irreversible-block-age, 
+             signature-provider, keosd-provider-timeout, produce-time-offset-us, last-block-time-offset-us, 
+             max-scheduled-transaction-time-per-block-ms, incoming-defer-ratio, producer-threads, 
+             snapshots-dir, state-history-dir, trace-history, chain-state-history, txn-reference-block-lag
+             
+         Explicit values will override future changes to application defaults. Consider commenting out or
+         removing these items.
+info  2019-04-04T03:14:49.914 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+warn  2019-04-04T03:14:49.914 thread-0  chain_plugin.cpp:700          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:700 plugin_initialize
+error 2019-04-04T03:14:49.915 thread-0  main.cpp:114                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+APPBASE: Warning: The following configuration items in the config.ini file are redundantly set to
+         their default value:
+             bnet-endpoint, bnet-follow-irreversible, bnet-no-trx, bnet-peer-log-format, 
+             blocks-dir, abi-serializer-max-time-ms, chain-state-db-size-mb, chain-state-db-guard-size-mb, 
+             reversible-blocks-db-size-mb, reversible-blocks-db-guard-size-mb, signature-cpu-billable-pct, 
+             chain-threads, contracts-console, read-mode, validation-mode, disable-ram-billing-notify-checks, 
+             https-client-validate-peers, http-server-address, access-control-allow-credentials, 
+             max-body-size, verbose-http-errors, http-validate-host, max-login-requests, 
+             max-login-timeout, mongodb-queue-size, mongodb-abi-cache-size, mongodb-wipe, 
+             mongodb-block-start, mongodb-update-via-block-num, mongodb-store-blocks, 
+             mongodb-store-block-states, mongodb-store-transactions, mongodb-store-transaction-traces, 
+             mongodb-store-action-traces, p2p-listen-endpoint, p2p-max-nodes-per-host, 
+             agent-name, allowed-connection, max-clients, connection-cleanup-period, max-cleanup-time-msec, 
+             network-version-match, sync-fetch-span, use-socket-read-watermark, peer-log-format, 
+             enable-stale-production, pause-on-startup, max-transaction-time, max-irreversible-block-age, 
+             signature-provider, keosd-provider-timeout, produce-time-offset-us, last-block-time-offset-us, 
+             max-scheduled-transaction-time-per-block-ms, incoming-defer-ratio, producer-threads, 
+             snapshots-dir, state-history-dir, trace-history, chain-state-history, txn-reference-block-lag
+             
+         Explicit values will override future changes to application defaults. Consider commenting out or
+         removing these items.
+info  2019-04-04T03:17:32.006 thread-0  chain_plugin.cpp:333          plugin_initialize    ] initializing chain plugin
+warn  2019-04-04T03:17:32.006 thread-0  chain_plugin.cpp:700          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:700 plugin_initialize
+error 2019-04-04T03:17:32.007 thread-0  main.cpp:114                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
