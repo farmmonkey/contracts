@@ -1,1 +1,0 @@
-cleos set contract farmmonkey /Users/shawnrmoss/code/farmmonkeyprotocol/contracts/Farmmonkey/build/Farmmonkey -p farmmonkey@active 
