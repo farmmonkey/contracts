@@ -1,0 +1,37 @@
+
+
+Every new EOSIO chain has a default "system" user called "eosio". 
+This account is used to setup the chain by loading system contracts that dictate the governance and consensus of the EOSIO chain. 
+
+cleos wallet import
+
+You'll be prompted for a private key, enter the eosio development key provided below
+
+5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+
+cleos wallet create --to-console   
+
+Creating wallet: default
+Save password to use in the future to unlock this wallet.
+Without password imported keys will not be retrievable.
+"PW5KcVBiat8sXMjTBAFSwhFB8eze8erFbQaVdMUEmssvNCdwQarCF"
+
+Creating wallet: mossprime
+Save password to use in the future to unlock this wallet.
+Without password imported keys will not be retrievable.
+"PW5JJ9rcveQikLe1VDnvWrQ1BMqzpEEUvPxGb7XVdQpfKi6zCN9ff"
+
+cleos create key --to-console
+Private key: 5JBrYR3bspSjTFZMXMN6GzAahoU9qgDqCr7Eh2zxHNtmsmYtKsP
+Public key: EOS5nu5YUD4MTLnVoHEfYXTvrbmmrkdJswzyh84xxwPuepdvoaD3j
+import key into wallet 
+cleos wallet import 
+enter private key : 5JBrYR3bspSjTFZMXMN6GzAahoU9qgDqCr7Eh2zxHNtmsmYtKsP
+
+cleos create key --to-console
+Private key: 5JD2Tdk4ZFf6nymqYGCo4J4hkpTNN8KSemkSen27aSaNnQjaBmA
+Public key: EOS5WcJFn6nXWvsjshfrHiA2DKqeMDzuP55HtmstxDYXmcdUGLUof
+import into mossprime wallet 
+cleos wallet import -n mossprime     
+private key: 5JD2Tdk4ZFf6nymqYGCo4J4hkpTNN8KSemkSen27aSaNnQjaBmA
+imported private key for: EOS5WcJFn6nXWvsjshfrHiA2DKqeMDzuP55HtmstxDYXmcdUGLUof

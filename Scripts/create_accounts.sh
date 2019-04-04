@@ -1,0 +1,3 @@
+cleos create account eosio bob EOS754RkNNzST9qRvRegn2kTUhuvEFTEkStTaeSxVU2eck2gGuAku 
+cleos create account eosio alice EOS754RkNNzST9qRvRegn2kTUhuvEFTEkStTaeSxVU2eck2gGuAku
+cleos create account eosio farmmonkey EOS754RkNNzST9qRvRegn2kTUhuvEFTEkStTaeSxVU2eck2gGuAku EOS754RkNNzST9qRvRegn2kTUhuvEFTEkStTaeSxVU2eck2gGuAku -p eosio@active
