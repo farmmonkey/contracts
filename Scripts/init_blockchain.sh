@@ -23,6 +23,7 @@ nodeos -e -p eosio \
   --plugin eosio::producer_plugin \
   --plugin eosio::chain_api_plugin \
   --plugin eosio::http_plugin \
+  --plugin eosio::history_api_plugin \
   --http-server-address=0.0.0.0:8888 \
   --access-control-allow-origin=* \
   --contracts-console \
@@ -52,7 +53,8 @@ cleos wallet import -n farmmonkeywallet --private-key 5JD9AGTuTeD5BXZwGQ5AtwBqHK
 
 echo "=== deploy dapp smart contract ==="
 # create account for blogaccount with above wallet's public keys
-cleos create account eosio farmmonkeyaccount EOS6PUh9rs7eddJNzqgqDx1QrspSHLRxLMcRdwHZZRL4tpbtvia5B EOS8BCgapgYA2L4LJfCzekzeSr3rzgSTUXRXwNi8bNRoz31D14en9
+cleos wallet unlock
+cleos create account eosio farmmonkeyorg EOS6PUh9rs7eddJNzqgqDx1QrspSHLRxLMcRdwHZZRL4tpbtvia5B EOS8BCgapgYA2L4LJfCzekzeSr3rzgSTUXRXwNi8bNRoz31D14en9
 
 # * Replace "farmmonkeyaccount" with your own account name when you start your own project
 
@@ -60,7 +62,7 @@ cleos create account eosio farmmonkeyaccount EOS6PUh9rs7eddJNzqgqDx1QrspSHLRxLMc
 # $2 account holder name of the smart contract
 # $3 wallet that holds the keys for the account
 # $4 password for unlocking the wallet
-deploy_contract.sh farmmonkey farmmonkeyaccount farmmonkeywallet $(cat farmmonkey_wallet_password.txt)
+deploy_contract.sh farmmonkey farmmonkeyorg farmmonkeywallet $(cat farmmonkey_wallet_password.txt)
 
 echo "=== create user accounts ==="
 # script for creating data into blockchain
