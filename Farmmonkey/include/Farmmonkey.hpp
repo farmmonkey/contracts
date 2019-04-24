@@ -34,3 +34,5 @@ CONTRACT Farmmonkey : public contract {
 
       typedef eosio::multi_index<"people"_n, person> address_index;
 };
+
+EOSIO_DISPATCH(Farmmonkey, (hi)(upsert)(erase))

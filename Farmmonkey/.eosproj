@@ -1,0 +1,19 @@
+{
+  "main": "src/Farmmonkey.cpp",
+  "contract": "Farmonkey",
+  "include": "",
+  "cdt": "",
+  "output": "./build/Farmmonkey/Farmmonkey.wasm",
+  "scripts": {
+    "build": ""
+  },
+  "deploy": {
+    "mainnet": "",
+    "kylin": "",
+    "jungle": "",
+    "local": ""
+  },
+  "test": {
+    "npmClient": ""
+  }
+}
