@@ -1,9 +1,9 @@
 {
-  "main": "src/Farmmonkey.cpp",
-  "contract": "Farmonkey",
+  "main": "src/farmmonkey.cpp",
+  "contract": "farmmonkey",
   "include": "",
   "cdt": "",
-  "output": "./build/Farmmonkey/Farmmonkey.wasm",
+  "output": "./build/farmmonkey/farmmonkey.wasm",
   "scripts": {
     "build": ""
   },

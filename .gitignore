@@ -70,3 +70,9 @@ Temporary Items
 .apdisk
 
 # End of https://www.gitignore.io/api/macos
+
+### EOSIO ###
+# Nodeos
+nodeos.log
+
+# End of EOSIO

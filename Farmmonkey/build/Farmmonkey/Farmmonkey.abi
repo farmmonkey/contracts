@@ -93,7 +93,7 @@
         {
             "name": "hi",
             "type": "hi",
-            "ricardian_contract": "Stub for hi action's ricardian contract"
+            "ricardian_contract": ""
         },
         {
             "name": "upsert",

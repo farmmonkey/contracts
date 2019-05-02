@@ -1,11 +1,11 @@
-#include <Farmmonkey.hpp>
+#include <farmmonkey.hpp>
 
-ACTION Farmmonkey::hi( name nm ) {
+ACTION farmmonkey::hi( name nm ) {
    /* fill in action body */
    print_f("Name : %\n",nm);
 }
 
-ACTION Farmmonkey::upsert(name user, std::string first_name, std::string last_name, std::string street, std::string city, std::string state) {
+ACTION farmmonkey::upsert(name user, std::string first_name, std::string last_name, std::string street, std::string city, std::string state) {
    require_auth( user );
    address_index addresses( get_self(), get_first_receiver().value );
    auto iterator = addresses.find(user.value);
@@ -33,7 +33,7 @@ ACTION Farmmonkey::upsert(name user, std::string first_name, std::string last_na
    }
 }
 
-ACTION Farmmonkey::erase(name user) {
+ACTION farmmonkey::erase(name user) {
    require_auth(user);
    address_index addresses( get_self(), get_first_receiver().value);
 
