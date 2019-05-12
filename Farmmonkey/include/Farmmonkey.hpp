@@ -5,34 +5,25 @@ CONTRACT farmmonkey : public contract {
    public:
       using contract::contract;
 
-      farmmonkey(name receiver, name code,  datastream<const char*> ds): contract(receiver, code, ds) {}
+      farmmonkey(name receiver, name code,  datastream<const char*> ds): contract(receiver, code, ds), _users(receiver, receiver.value) {}
 
-      ACTION hi( name nm );
-
-      using hi_action = action_wrapper<"hi"_n, &farmmonkey::hi>;
-      
-      ACTION upsert(name user, std::string first_name, std::string last_name, std::string street, std::string city, std::string state);
-
-      using upsert_action = action_wrapper<"upsert"_n, &farmmonkey::upsert>;
-      
-      ACTION erase(name user);
-
-      using erase_action = action_wrapper<"erase"_n, &farmmonkey::erase>;
-      
+      ACTION login( name user );
 
    private:
-      struct [[eosio::table]] person {
-         name key;
+      TABLE user_struct {
+         name username;
          std::string first_name;
          std::string last_name;
          std::string street;
          std::string city;
          std::string state;
 
-         uint64_t primary_key() const { return key.value;}
+         auto primary_key() const { return username.value; } 
       };
 
-      typedef eosio::multi_index<"people"_n, person> address_index;
+      typedef multi_index<name("users"), user_struct> users_table;
+      
+      users_table _users;
 };
 
-EOSIO_DISPATCH(farmmonkey, (hi)(upsert)(erase))
+EOSIO_DISPATCH(farmmonkey, (login))

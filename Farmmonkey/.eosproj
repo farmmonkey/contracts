@@ -3,11 +3,12 @@
   "contract": "farmmonkey",
   "include": "",
   "cdt": "",
-  "output": "./build/farmmonkey/farmmonkey.wasm",
+  "output": "",
   "scripts": {
     "build": ""
   },
   "deploy": {
+    "target": "both",
     "mainnet": "",
     "kylin": "",
     "jungle": "",
