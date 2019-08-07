@@ -2,8 +2,9 @@
   "main": "src/farmmonkey.cpp",
   "contract": "farmmonkey",
   "include": "",
-  "cdt": "",
-  "output": "",
+  "resource": "",
+  "cdt": "cmd",
+  "output": "build/farmmonkey",
   "scripts": {
     "build": ""
   },
