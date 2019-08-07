@@ -4,7 +4,7 @@
   "include": "",
   "resource": "",
   "cdt": "cmd",
-  "output": "",
+  "output": "build/farmmonkey",
   "scripts": {
     "build": ""
   },
