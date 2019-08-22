@@ -4,7 +4,7 @@
   "include": "",
   "resource": "",
   "cdt": "v1.6.2",
-  "output": "build/farmmonkey/farmmonkey.wasm",
+  "output": "",
   "scripts": {
     "build": ""
   },
