@@ -3,8 +3,8 @@
   "contract": "farmmonkey",
   "include": "",
   "resource": "",
-  "cdt": "cmd",
-  "output": "build/farmmonkey",
+  "cdt": "v1.6.2",
+  "output": "build/farmmonkey.wasm",
   "scripts": {
     "build": ""
   },
